@@ -4,6 +4,6 @@ Here is the link for the api https://souravcovid19api.herokuapp.com/
 
 # Screenshots
 <p align="center">
-  <img src="screenshots/covid-main.png" width="350" title="home"> <br>
-  <img src="screenshots/covid-state.png" width="350" title="game"> <br>
+  <img src="screenshots/covid-main.png" width="450" title="home"> <br>
+  <img src="screenshots/covid-state.png" width="450" title="game"> <br>
 </p>
