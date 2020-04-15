@@ -39,8 +39,8 @@ def index():
         final.append(temp[-4:])  # to get only last 4 element
         i += 5
     # For the last element which contain total no
-    total.append(res[-4:])
-
+    total.append(res[-5:])
+    print(str(res))
     label = [
         "Name", "Confirmed", "Cured", "Death"]
     global l
@@ -50,13 +50,13 @@ def index():
         l.append(d)
 
     tlabel = ["Total_Confirmed", "Total_Cured", "Total_Death"]
-
+    print(str(total))
     global t
     t = []
     for i in total:
         d = dict(zip(tlabel, i))
         t.append(d)
-    
+    print("im t" + str(t))
     #return jsonify(myData)
     #return jsonify({"state": l, "total": t})
     return render_template('index.html', country=t, state=l)
