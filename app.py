@@ -39,7 +39,7 @@ def index():
         final.append(temp[-4:])  # to get only last 4 element
         i += 5
     # For the last element which contain total no
-    total.append(res[-5:])
+    total.append(res[-4:])
     label = [
         "Name", "Confirmed", "Cured", "Death"]
     global l
